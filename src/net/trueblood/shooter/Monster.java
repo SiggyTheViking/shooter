@@ -1,6 +1,12 @@
 package net.trueblood.shooter;
 
-public class Monster {
+import java.io.Serializable;
+
+public class Monster implements Serializable {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 6954813565494497612L;
 	private String _name;
 	private int _hitPoints;
 	private final int _fullHealth;
